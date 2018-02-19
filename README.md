@@ -1,9 +1,22 @@
+<div align="center">
+    <a href="https://github.com/Logustra/sapl">
+      <img src="http://ultraimg.com/images/2018/02/19/nsjq.png" width="175px"
+        alt="Sapl - The Sass Boilerplate">
+    </a>
+</div>
+
 # Sapl - The Sass Boilerplate
+[![Build Status](https://travis-ci.org/Logustra/sapl.svg?branch=master)](https://travis-ci.org/Logustra/sapl)
+[![License](https://img.shields.io/github/license/Logustra/sapl.svg)](https://raw.githubusercontent.com/Logustra/sapl/master/LICENSE.md)
+[![GitHub issues](https://img.shields.io/github/issues/Logustra/sapl.svg)](https://github.com/Logustra/sapl/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Logustra/sapl.svg)](https://github.com/Logustra/sapl/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Logustra/sapl.svg)](https://github.com/Logustra/sapl/network)
+
 Sapl - The Sass Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
 
-* Sass with Gulp : [Here](https://github.com/Logustra/sass-boilerplate/tree/sass-with-gulp)
-* Sass with Grunt : [Here](https://github.com/Logustra/sass-boilerplate/tree/sass-with-grunt)
-* Sass with Webpack : Coming Soon
+* Sass with Gulp : [Here](https://github.com/Logustra/sapl/tree/sass-with-gulp)
+* Sass with Grunt : [Here](https://github.com/Logustra/sapl/tree/sass-with-grunt)
+* Sass with Webpack : [Here](https://github.com/Logustra/sapl/tree/sass-with-webpack)
 
 ## Architecture Sass
 Properly architecting your Sass project is a crucial starting point to having a maintainable, scalable, and well-organized project. Sass makes separating your project into logical “modules” simple with the `@import` directive, which acts differently than the native CSS `@import` directive in that it **includes** `.scss` **or** `.sass` **files before the final CSS output.**
@@ -21,7 +34,7 @@ There are many project architectures that you can employ in your project, and ea
 - `vendors/` – contains 3rd-party styles, mixins, etc.
 - `main.scss` – output file that brings together all of the above parts
 
-Source : [scotch.io](https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization)
+Reference : [scotch.io](https://scotch.io/tutorials/aesthetic-sass-1-architecture-and-style-organization)
 
 ## License
 [MIT](https://github.com/Logustra/sass-boilerplate/blob/master/LICENSE.md) &copy; [Logustra](https://github.com/Logustra)
