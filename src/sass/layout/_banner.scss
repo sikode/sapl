@@ -1,0 +1,13 @@
+.banner {
+    color: $white;
+
+    .container {
+        text-align: center;
+
+        .btn {
+            margin-top: 30px;
+            padding: 6px 26px;
+            @include font-size(16px);
+        }
+    }
+}

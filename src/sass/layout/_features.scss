@@ -1,0 +1,77 @@
+.features {
+    
+    .row {
+        margin: 0 -25px;
+
+        .sapl-col-md-3 {
+            padding: 20px;
+        }
+    }
+
+    figure {
+        background: $white;
+        padding: 30px;
+        text-align: center;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+        &:hover {
+            span,p {
+                color: $blue;
+                transition: .5s;
+            }
+        }
+
+        span {
+            @include font-size(115px);
+            color: $darksmoke;
+            transition: .5s;
+        }
+
+        figcaption {
+            p {
+                margin-bottom: 30px;
+                @include font-size(16px);
+                margin: 30px 0 0 0;
+                color: $darksmoke;
+                cursor: default;
+                transition: .5s;
+            }
+        }
+    }
+}
+
+@include mq(xxsmall) {
+    .features {
+        .row {
+            margin: 0 -25px;
+
+            .sapl-col-md-3 {
+                padding: 7.5px 25px;
+            }
+        }
+    }
+}
+
+@include mq(xsmall) {
+    .features {
+        .row {
+            margin: 0 -25px;
+
+            .sapl-col-md-3 {
+                padding: 7.5px 25px;
+            }
+        }
+    }
+}
+
+@include mq(small) {
+    .features {
+        .row {
+            margin: 0 -25px;
+
+            .sapl-col-md-3 {
+                padding: 7.5px 25px;
+            }
+        }
+    }
+}
