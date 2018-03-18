@@ -1,5 +1,5 @@
 <div align="center">
-    <a href="https://github.com/logustra/sapl">
+    <a href="https://logustra.github.io/sapl/">
       <img src="http://ultraimg.com/images/2018/02/19/nsjq.png" width="175px"
         alt="Sapl - The Sass Boilerplate">
     </a>
@@ -14,9 +14,9 @@
 
 Sapl - The Sass Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
 
-* Sass with Gulp : [Here](https://github.com/logustra/sapl/tree/sass-with-gulp)
-* Sass with Grunt : [Here](https://github.com/logustra/sapl/tree/sass-with-grunt)
-* Sass with Webpack : [Here](https://github.com/logustra/sapl/tree/sass-with-webpack)
+* Sass with Gulp : [Here](https://github.com/logustra/sapl-gulp)
+* Sass with Grunt : [Here](https://github.com/logustra/sapl-grunt)
+* Sass with Webpack : [Here](https://github.com/logustra/sapl-webpack)
 
 ## Architecture Sass
 Properly architecting your Sass project is a crucial starting point to having a maintainable, scalable, and well-organized project. Sass makes separating your project into logical “modules” simple with the `@import` directive, which acts differently than the native CSS `@import` directive in that it **includes** `.scss` **or** `.sass` **files before the final CSS output.**
